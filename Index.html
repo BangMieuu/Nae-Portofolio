@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nae's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>I love creating contents</em></p>
+  <br>
+  <p>I am Bùi Khánh Toàn. I'm 24 years old. I am a recent graduate student at University of Greenwich Vietnam. My major is Computer Programmer. I have spent 3 years to improving my skill in application development, self-learning about 2D and 3D modeling.
+    
+    I enjoy and seem to be good at dealing with problems and challenging myself. I'm rather serious at work and can work under pressure. I feel my communication skill is my weakest trait. However I know this is only a temporary problem. I'm defeinitely studying hard to communicate more effectively.
+    <br>
+    <br> My goal is to find a position where I can use knowledge and strengths that I have to learn on the job, which is why I would like to work for your company.
+    <br> 
+</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Bùi Khánh Toàn</b></p><br>
+      <img src="avatar.jpg" class="w3-round w3-image" alt="My Photo" width="500" height="400">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <br>
+        <br>
+        <br>
+      <p>Date of Birth: 24/12/1999</p>
+
+      <p>Gender:  <i class="fa fa-mars"></i></p>
+
+      <p>I am interested in creating 3D models and animation. I am not a professional in any academic major but I do research and self-learning such as photoshop, video editing, coding, and designing through the Internet, also a hard-working person to complete projects at 100%.</p>
+
+      <p> My Hobbies: 
+        <br><i class="fa fa-gamepad"></i> 
+        <br><i class="fa fa-keyboard-o"></i>
+        <br><i class="fa fa-film"></i>
+        <br><i class="fa fa-futbol-o"></i>
+        <br><i class="fa fa-headphones"></i>
+        <br><i class="fa fa-laptop"></i>
+        
+        
+      </p>
+      <p></p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">My personal skills:</p>
+  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-light-blue w3-center" style="width:90%">100%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-light-blue w3-center" style="width:85%">80%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-light-blue w3-center" style="width:75%">70%</div>
+  </div>
+
+  <p class="w3-wide"><i class="fa fa-paint-brush"></i>Creativity</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-light-blue w3-center" style="width:100%">90%</div>
+  </div>
+  
+
+</div>
+
+<div class="w3-row w3-center w3-black w3-padding-16">
+  <div class="w3-quarter w3-half">
+    <span class="w3-xlarge">6</span><br>
+    Awards and certificates
+  </div>
+  <div class="w3-quarter w3-half">
+    <span class="w3-xlarge">20+</span><br>
+    Projects
+  </div>
+</div>
+
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>Here are some of my projects.</em></p><br>
+  
+  <!-- Portfolio Projects -->
+  <div class="w3-row-padding w3-center">
+    <div class="col-6 col-s-9">
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/coBI7EKPy7c" title="[Genshin Impact] Ganyu ft. Keqing ft. Ningguang - Adios" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="col-6 col-s-9">
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/B-LF1Wnl3nY" title="[Genshin Impact] Ayaka -  热爱105℃的你音频" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="col-6 col-s-9">
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/0ZYNLnxxQL8" title="[Genshin Impact] Ningguang - Luo Tianyi 千盏" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="col-6 col-s-9">
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/mUdvBz2LU3M" title="[Genshin Impact] Yae Miko ft. Raiden Ei ft. Sara  - Side to Side" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Contact information -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center"><i class="fa fa-handshake-o"></i> OPEN TO WORK</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7448.918286484332!2d105.86089965094776!3d21.014306875753817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abfa7077e34b%3A0x4bdd581fe3c36c68!2zQuG6oWNoIMSQ4bqxbmcsIEhhaSBCw6AgVHLGsG5nIERpc3RyaWN0LCBIYW5vaSwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1678542393512!5m2!1sen!2s" width=100% height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Hanoi, Vietnam<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: (+84) 62785499<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: Toanbk2412@gmail.com<br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#about" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/Call.me.Nage/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/call.me.nage/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/toan-bui-6429b8229/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</footer>
+ 
+<script>
+
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
