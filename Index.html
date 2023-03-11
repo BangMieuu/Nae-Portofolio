@@ -15,6 +15,37 @@ body, html {
   line-height: 1.8;
 }
 
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (min-width: 601px) {
+  div.p {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.p {
+    font-size: 30px;
+  }
+}
+
+
 </style>
 </head>
 <body>
@@ -71,43 +102,40 @@ body, html {
       <p>I am interested in creating 3D models and animation. I am not a professional in any academic major but I do research and self-learning such as photoshop, video editing, coding, and designing through the Internet, also a hard-working person to complete projects at 100%.</p>
 
       <p> My Hobbies: 
-        <br><i class="fa fa-gamepad"></i> 
-        <br><i class="fa fa-keyboard-o"></i>
-        <br><i class="fa fa-film"></i>
-        <br><i class="fa fa-futbol-o"></i>
-        <br><i class="fa fa-headphones"></i>
-        <br><i class="fa fa-laptop"></i>
-        
-        
+        <br><i class="fa fa-gamepad"> Gaming</i> 
+        <br><i class="fa fa-keyboard-o"> Keyboards</i>
+        <br><i class="fa fa-film"> Movies</i>
+        <br><i class="fa fa-futbol-o"> Soccer</i>
+        <br><i class="fa fa-headphones"> Musics</i>
+        <br><i class="fa fa-paw"> Cats</i>
       </p>
-      <p></p>
     </div>
-  </div>
-  <p class="w3-large w3-center w3-padding-16">My personal skills:</p>
-  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-light-blue w3-center" style="width:90%">100%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-light-blue w3-center" style="width:85%">80%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-light-blue w3-center" style="width:75%">70%</div>
-  </div>
 
-  <p class="w3-wide"><i class="fa fa-paint-brush"></i>Creativity</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-light-blue w3-center" style="width:100%">90%</div>
+
+    <p class="w3-large w3-center w3-padding-20">My personal skills:</p>
+
+    <div class="row">
+        <div class="column"><p class="w3-wide"></i>Photography</p>
+                            <p class="w3-wide"></i>Creativity</p>
+                            <p class="w3-wide"></i>Time management</p>
+        </div>
+        <div class="column"><p class="w3-wide">Web Design</p>
+                            <p class="w3-wide">Teamwork</p>
+                            <p class="w3-wide">Communication</p>
+        </div>
+                            
+        <div class="column"><p class="w3-wide">Photoshop</p>
+                            <p class="w3-wide">Negotiation</p>
+                            <p class="w3-wide">Adaptability </p>
+        </div>
+      
   </div>
-  
 
 </div>
 
 <div class="w3-row w3-center w3-black w3-padding-16">
   <div class="w3-quarter w3-half">
-    <span class="w3-xlarge">6</span><br>
+    <span class="w3-xlarge">6 <i class="fa fa-trophy"></i></span><br>
     Awards and certificates
   </div>
   <div class="w3-quarter w3-half">
@@ -125,19 +153,19 @@ body, html {
   <!-- Portfolio Projects -->
   <div class="w3-row-padding w3-center">
     <div class="col-6 col-s-9">
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/coBI7EKPy7c" title="[Genshin Impact] Ganyu ft. Keqing ft. Ningguang - Adios" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="600" height="500" src="https://www.youtube.com/embed/coBI7EKPy7c" title="[Genshin Impact] Ganyu ft. Keqing ft. Ningguang - Adios" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
     <div class="col-6 col-s-9">
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/B-LF1Wnl3nY" title="[Genshin Impact] Ayaka -  热爱105℃的你音频" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="600" height="500" src="https://www.youtube.com/embed/B-LF1Wnl3nY" title="[Genshin Impact] Ayaka -  热爱105℃的你音频" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
     <div class="col-6 col-s-9">
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/0ZYNLnxxQL8" title="[Genshin Impact] Ningguang - Luo Tianyi 千盏" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width= 100% height="500" src="https://www.youtube.com/embed/0ZYNLnxxQL8" title="[Genshin Impact] Ningguang - Luo Tianyi 千盏" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
     <div class="col-6 col-s-9">
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/mUdvBz2LU3M" title="[Genshin Impact] Yae Miko ft. Raiden Ei ft. Sara  - Side to Side" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width= 100% height="500" src="https://www.youtube.com/embed/mUdvBz2LU3M" title="[Genshin Impact] Yae Miko ft. Raiden Ei ft. Sara  - Side to Side" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
   </div>
@@ -171,7 +199,7 @@ body, html {
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+<footer class="w3-center w3-black w3-padding-64">
   <a href="#about" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
     <a href="https://www.facebook.com/Call.me.Nage/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
