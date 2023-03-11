@@ -15,11 +15,14 @@ body, html {
   line-height: 1.8;
 }
 
-
+* {
+  box-sizing: border-box;
+}
 
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
+  text-align:center;
   width: 33.33%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
@@ -31,6 +34,7 @@ body, html {
   display: table;
   clear: both;
 }
+
 
 @media screen and (min-width: 601px) {
   div.p {
@@ -114,22 +118,25 @@ body, html {
 
     <p class="w3-large w3-center w3-padding-20">My personal skills:</p>
 
-    <div class="row">
-        <div class="column"><p class="w3-wide"></i>Photography</p>
-                            <p class="w3-wide"></i>Creativity</p>
-                            <p class="w3-wide"></i>Time management</p>
+    <div class="row" >
+        <div class="column">   <p class="">Photography</p>
+                            <p class="">Creativity</p>
+                            <p class="">Time management</p>
         </div>
-        <div class="column"><p class="w3-wide">Web Design</p>
-                            <p class="w3-wide">Teamwork</p>
-                            <p class="w3-wide">Communication</p>
+        <div class="column">   <p class="">Web Design</p>
+                            <p class="">Teamwork</p>
+                            <p class="">Communication</p>
         </div>
                             
-        <div class="column"><p class="w3-wide">Photoshop</p>
-                            <p class="w3-wide">Negotiation</p>
-                            <p class="w3-wide">Adaptability </p>
+        <div class="column">   <p class="">Photoshop</p>
+                            <p class="">Negotiation</p>
+                            <p class="">Adaptability </p>
         </div>
       
   </div>
+
+
+  
 
 </div>
 
