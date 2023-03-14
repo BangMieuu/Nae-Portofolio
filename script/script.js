@@ -10,8 +10,5 @@ window.onscroll = function() {
     }
 }
 
-document.getElementById("btn1").onclick = function () {
-    document.getElementById("content").style.display = 'block';
-};
 
 
