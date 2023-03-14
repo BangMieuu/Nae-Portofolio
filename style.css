@@ -71,3 +71,7 @@
 #contact {
     padding-bottom: 4rem;
 }
+
+#content {
+    display: none;
+}

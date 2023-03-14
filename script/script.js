@@ -9,3 +9,9 @@ window.onscroll = function() {
         header.classList.remove('navbarDark');
     }
 }
+
+document.getElementById("btn1").onclick = function () {
+    document.getElementById("content").style.display = 'block';
+};
+
+
